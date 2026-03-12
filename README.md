@@ -39,7 +39,6 @@ ChatWithYourPDF/
 ├── vector_store.py       # Chroma vector database logic
 ├── requirements.txt      # Project dependencies
 ├── .env                  # OpenAI API key
-├── chroma_db/            # Local vector database storage
 └── README.md
 ```
 
