@@ -156,18 +156,6 @@ What is the main topic of this document?
 The document explains the fundamentals of machine learning and its applications.
 ```
 
----
-
-## 🎯 Future Improvements
-
-* Support multiple PDF uploads
-* Add chat history
-* Display source page references
-* Implement hybrid search (keyword + vector)
-* Deploy using Docker or cloud platforms
-
----
-
 ## 👨‍💻 Author
 
 Alpesh Patel
