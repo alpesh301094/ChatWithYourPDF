@@ -3,3 +3,5 @@
 
 # Ignore all virtual environments
 venv/
+
+/chroma_db
