@@ -6,3 +6,4 @@ venv/
 
 /chroma_db
 temp.pdf
+/__pycache__
