@@ -156,7 +156,6 @@ What is the main topic of this document?
 The document explains the fundamentals of machine learning and its applications.
 ```
 
-
 ## 👨‍💻 Author
 
 Alpesh Patel
