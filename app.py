@@ -51,6 +51,3 @@ if uploaded_file:
 
         st.write("### Answer")
         st.write(response)
-
-
-# streamlit run app.py
