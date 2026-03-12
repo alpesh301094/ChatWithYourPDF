@@ -15,7 +15,7 @@ Built with **LangChain, Streamlit, and Chroma Vector Database**.
 * Store embeddings in a vector database
 * Ask questions about the document
 * Retrieve the most relevant chunks using similarity search
-* Generate AI-powered answers based on document content
+* Generate AI-powered answers based on document context
 
 ---
 
@@ -56,24 +56,20 @@ cd chat-with-your-pdf
 
 ---
 
-### 2️⃣ Create Virtual Environment
+### 2️⃣ Create Conda Environment
+
+Make sure **Anaconda or Miniconda** is installed.
+
+Create a new environment:
 
 ```
-python -m venv venv
+conda create -n venv python=3.10
 ```
 
-Activate environment:
-
-**Windows**
+Activate the environment:
 
 ```
-venv\Scripts\activate
-```
-
-**Mac / Linux**
-
-```
-source venv/bin/activate
+conda activate venv
 ```
 
 ---
@@ -98,7 +94,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ## ▶ Run the Application
 
-Start the Streamlit app:
+Start the Streamlit application:
 
 ```
 streamlit run app.py
@@ -127,15 +123,13 @@ http://localhost:8501
 
 ## 📦 Dependencies
 
-Main libraries used in this project:
-
 ```
 streamlit==1.33.0
 langchain==0.1.20
 langchain-community==0.0.38
 langchain-openai==0.1.7
-openai==1.14.3
 chromadb==0.4.24
+openai==1.14.3
 pypdf==4.2.0
 tiktoken==0.7.0
 pydantic==1.10.13
@@ -147,7 +141,7 @@ python-dotenv==1.0.1
 
 ## 📸 Demo
 
-Upload a PDF → Ask a question → Get AI generated answers based on the document.
+Upload a PDF → Ask a question → Get AI-generated answers based on the document.
 
 Example:
 
@@ -160,7 +154,7 @@ What is the main topic of this document?
 **Answer**
 
 ```
-The document discusses machine learning algorithms and their applications...
+The document explains the fundamentals of machine learning and its applications.
 ```
 
 ---
@@ -169,9 +163,9 @@ The document discusses machine learning algorithms and their applications...
 
 * Support multiple PDF uploads
 * Add chat history
-* Show source page references
-* Implement hybrid search (BM25 + vector)
-* Deploy using Docker or cloud services
+* Display source page references
+* Implement hybrid search (keyword + vector)
+* Deploy using Docker or cloud platforms
 
 ---
 
